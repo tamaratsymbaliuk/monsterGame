@@ -124,7 +124,6 @@ function printLogHandler() {
         console.log(battleLog[i]);
     }
     */
-
     let i = 0;
     for (const logEntry of battleLog) {
         if (!lastLoggedEntry && lastLoggedEntry !== 0 || lastLoggedEntry < i) {
